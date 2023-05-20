@@ -71,3 +71,14 @@ async function repositoryListing(ns, folder = '') {
             !options['omit-folder'].some(dir => name.startsWith(dir)));
     }
 }
+
+
+/*
+
+git init
+git add .
+git commit -m "message"
+git remote add origin "github.com/pobruno/bitburner-scripts.git"
+git push -u origin master
+
+*/
